@@ -14,7 +14,7 @@
 
 var db = require("../models");
 
-// show todos route
+// getTodos - show all todos
 exports.getTodos = (req, res) => {
   // use the db model variable to find all Todo items
   db.Todo.find()
